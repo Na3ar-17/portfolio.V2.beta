@@ -1,0 +1,31 @@
+/* Скидання усіх дефолтних стилів для всіх елементів */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Скидання стилів для списків */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Скидання стилів для посилань */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Скидання стилів для зображень */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
