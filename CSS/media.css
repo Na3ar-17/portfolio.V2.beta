@@ -345,7 +345,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    row-gap: 110px;
+    row-gap: 70px;
     transition: all 0.2s ease-out;
   }
 
