@@ -333,6 +333,9 @@
 }
 
 @media screen and (max-width: 730px) {
+  .html-hidden {
+    overflow-y: hidden;
+  }
   .list {
     position: fixed;
     right: -100%;
