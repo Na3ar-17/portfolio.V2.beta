@@ -802,6 +802,7 @@ body {
 .footer-nav .footer-list {
   display: flex;
   column-gap: 20px;
+  -webkit-column-gap: 20px;
 }
 
 .footer-nav .footer-list a {
