@@ -104,7 +104,9 @@ function clearElements() {
 document.body.onload = () => {
   const preloader = document.querySelector(".preloader");
   setTimeout(() => {
-    preloader.classList.add("preloader-hidden");
+    if (!preloader.classList.contains("preloader-hidden")) {
+      preloader.classList.add("preloader-hidden");
+    }
   }, 1 * 1000);
 };
 
