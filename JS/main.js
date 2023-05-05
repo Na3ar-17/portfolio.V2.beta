@@ -51,17 +51,16 @@ link.addEventListener("click", () => {
   }
 });
 
-for (let i = 0; i < btnNotWorking.length; i++) {
-  btnNotWorking[i].addEventListener("click", () => {
+btnNotWorking.forEach((el) => {
+  el.addEventListener("click", () => {
     modal.classList.remove("hidden");
-    html.classList.add("html-hidden");
     if (!modal.classList.contains("hidden")) {
       modalWindow.classList.add("window-active");
       modalOverlay.classList.add("overlay-active");
       addElements(dataElementsForModalWindow, 1, false);
     }
   });
-}
+});
 
 aboutDeveloper.addEventListener("click", () => {
   modal.classList.remove("hidden");
